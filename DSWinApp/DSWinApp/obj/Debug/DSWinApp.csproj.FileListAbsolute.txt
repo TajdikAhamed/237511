@@ -1,0 +1,10 @@
+D:\Git\250929\Class-2\class-3\DSWinApp\DSWinApp\bin\Debug\DSWinApp.exe.config
+D:\Git\250929\Class-2\class-3\DSWinApp\DSWinApp\bin\Debug\DSWinApp.exe
+D:\Git\250929\Class-2\class-3\DSWinApp\DSWinApp\bin\Debug\DSWinApp.pdb
+D:\Git\250929\Class-2\class-3\DSWinApp\DSWinApp\obj\Debug\DSWinApp.csprojAssemblyReference.cache
+D:\Git\250929\Class-2\class-3\DSWinApp\DSWinApp\obj\Debug\DSWinApp.Form1.resources
+D:\Git\250929\Class-2\class-3\DSWinApp\DSWinApp\obj\Debug\DSWinApp.Properties.Resources.resources
+D:\Git\250929\Class-2\class-3\DSWinApp\DSWinApp\obj\Debug\DSWinApp.csproj.GenerateResource.cache
+D:\Git\250929\Class-2\class-3\DSWinApp\DSWinApp\obj\Debug\DSWinApp.csproj.CoreCompileInputs.cache
+D:\Git\250929\Class-2\class-3\DSWinApp\DSWinApp\obj\Debug\DSWinApp.exe
+D:\Git\250929\Class-2\class-3\DSWinApp\DSWinApp\obj\Debug\DSWinApp.pdb
