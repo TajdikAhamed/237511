@@ -8,3 +8,14 @@ D:\Git\250929\Class-2\class-3\DSWinApp\DSWinApp\obj\Debug\DSWinApp.csproj.Genera
 D:\Git\250929\Class-2\class-3\DSWinApp\DSWinApp\obj\Debug\DSWinApp.csproj.CoreCompileInputs.cache
 D:\Git\250929\Class-2\class-3\DSWinApp\DSWinApp\obj\Debug\DSWinApp.exe
 D:\Git\250929\Class-2\class-3\DSWinApp\DSWinApp\obj\Debug\DSWinApp.pdb
+E:\git\237511\DSWinApp\DSWinApp\bin\Debug\DSWinApp.exe.config
+E:\git\237511\DSWinApp\DSWinApp\bin\Debug\DSWinApp.exe
+E:\git\237511\DSWinApp\DSWinApp\bin\Debug\DSWinApp.pdb
+E:\git\237511\DSWinApp\DSWinApp\obj\Debug\DSWinApp.csprojAssemblyReference.cache
+E:\git\237511\DSWinApp\DSWinApp\obj\Debug\DSWinApp.Form1.resources
+E:\git\237511\DSWinApp\DSWinApp\obj\Debug\DSWinApp.Properties.Resources.resources
+E:\git\237511\DSWinApp\DSWinApp\obj\Debug\DSWinApp.csproj.GenerateResource.cache
+E:\git\237511\DSWinApp\DSWinApp\obj\Debug\DSWinApp.csproj.CoreCompileInputs.cache
+E:\git\237511\DSWinApp\DSWinApp\obj\Debug\DSWinApp.exe
+E:\git\237511\DSWinApp\DSWinApp\obj\Debug\DSWinApp.pdb
+E:\git\237511\DSWinApp\DSWinApp\obj\Debug\DSWinApp.Form2.resources

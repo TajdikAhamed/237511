@@ -52,13 +52,9 @@ namespace DSWinApp
 
             string message = "";
             message += "Disply : \n";
-            for (int index = 0; index < number.Length; index++)
-            {
-                if (number[index] != 0)
-                {
-                    message = message + "Value of index " + index.ToString() + " :" + number[index].ToString() + "\n";
-                }
-            }
+
+                    message = message + GetResult();
+
 
 
 
@@ -75,11 +71,11 @@ namespace DSWinApp
             string message = "";
             //message += "Input Value : \n";
 
-       
-                    message = message + "Input Value in index " + index2.ToString() + " :" + number[index2-1].ToString() + "\n";
+
+            message = message + GetResult();
 
             //richTextBox1.Text = message;
-            richTextBox1.AppendText(message);
+            richTextBox1.Text = message;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -139,5 +135,22 @@ namespace DSWinApp
             }
             richTextBox1.AppendText(message);
         }
+
+
+        private string GetResult()
+        {
+            string message = "";
+            //message += "Disply Copy One : \n";
+            for (int index = 0; index < number.Length; index++)
+            {
+                if (number[index] != 0)
+                {
+                    message = message + "Value of index " + index.ToString() + " :" + number[index].ToString() + "\n";
+                }
+            }
+            return message;
+
+        }
+
     }
 }
