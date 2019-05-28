@@ -28,7 +28,7 @@ namespace DSWinApp
         private void button2_Click(object sender, EventArgs e)
         {
             string message = "";
-            foreach (var number in numbers,)
+            foreach (var number in numbers)
             {
                 message += "Value : "+number.ToString()+"\n";
             }

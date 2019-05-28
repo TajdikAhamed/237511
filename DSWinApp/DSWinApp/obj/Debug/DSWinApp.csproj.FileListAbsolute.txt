@@ -19,3 +19,4 @@ E:\git\237511\DSWinApp\DSWinApp\obj\Debug\DSWinApp.csproj.CoreCompileInputs.cach
 E:\git\237511\DSWinApp\DSWinApp\obj\Debug\DSWinApp.exe
 E:\git\237511\DSWinApp\DSWinApp\obj\Debug\DSWinApp.pdb
 E:\git\237511\DSWinApp\DSWinApp\obj\Debug\DSWinApp.Form2.resources
+E:\git\237511\DSWinApp\DSWinApp\obj\Debug\DSWinApp.Form3.resources
