@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AccountWinApp.Properties
+namespace DataBaseWinApp.Properties
 {
 
 
