@@ -67,5 +67,32 @@ namespace DataBaseWinApp
             }
 
         }
+
+        private void ShowButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SqlConnection sqlConnection = new SqlConnection(connectionString);
+                SqlCommand sqlCommand = new SqlCommand();
+                string commandString = @"Select ID, Name, COde from Departments";
+                sqlCommand.CommandText = commandString;
+                sqlCommand.Connection = sqlConnection;
+
+                sqlConnection.Open();
+                SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
+                if (sqlDataReader.HasRows)
+                {
+                    DataTable dataTable = new DataTable();
+                    dataTable.Load(sqlDataReader);
+                    displayDataGridView.DataSource = dataTable;
+                }
+
+                sqlConnection.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }

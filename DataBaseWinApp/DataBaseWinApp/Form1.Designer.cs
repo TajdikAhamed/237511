@@ -32,6 +32,9 @@
             this.deptTextBox = new System.Windows.Forms.TextBox();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.codeTextBox = new System.Windows.Forms.TextBox();
+            this.ShowButton = new System.Windows.Forms.Button();
+            this.displayDataGridView = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.displayDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // SaveButton
@@ -58,16 +61,37 @@
             this.codeTextBox.Size = new System.Drawing.Size(100, 20);
             this.codeTextBox.TabIndex = 2;
             // 
+            // ShowButton
+            // 
+            this.ShowButton.Location = new System.Drawing.Point(334, 101);
+            this.ShowButton.Name = "ShowButton";
+            this.ShowButton.Size = new System.Drawing.Size(75, 23);
+            this.ShowButton.TabIndex = 3;
+            this.ShowButton.Text = "Show";
+            this.ShowButton.UseVisualStyleBackColor = true;
+            this.ShowButton.Click += new System.EventHandler(this.ShowButton_Click);
+            // 
+            // displayDataGridView
+            // 
+            this.displayDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.displayDataGridView.Location = new System.Drawing.Point(13, 174);
+            this.displayDataGridView.Name = "displayDataGridView";
+            this.displayDataGridView.Size = new System.Drawing.Size(408, 217);
+            this.displayDataGridView.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(433, 450);
+            this.Controls.Add(this.displayDataGridView);
+            this.Controls.Add(this.ShowButton);
             this.Controls.Add(this.codeTextBox);
             this.Controls.Add(this.deptTextBox);
             this.Controls.Add(this.SaveButton);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.displayDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -79,6 +103,8 @@
         private System.Windows.Forms.TextBox deptTextBox;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.TextBox codeTextBox;
+        private System.Windows.Forms.Button ShowButton;
+        private System.Windows.Forms.DataGridView displayDataGridView;
     }
 }
 
