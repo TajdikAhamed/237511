@@ -17,6 +17,7 @@ namespace DataBaseWinApp
         string connectionString = @"Server=PC-301-24\SQLEXPRESS; Database=StudentDB; Integrated Security= True;";
 
         public class Department {
+            public int Id { get; set; }
             public string Name { get; set; }
             public string Code { get; set; }
         }
@@ -93,6 +94,11 @@ namespace DataBaseWinApp
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void displayDataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+          //  Department department =  displayDataGridView.;
         }
     }
 }

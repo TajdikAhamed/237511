@@ -1,0 +1,15 @@
+select * from Districts
+
+select * from Students
+
+
+insert into Districts (Name) values('Dhaka')
+insert into Districts (Name) values('Natore')
+
+
+insert into students(RollNo,Name,[Age],Address, DistrictID ) values (1,'taj',24,'haha',2)
+
+alter View StudentsView
+as
+select s.Id, s.RollNo,s.Name,s.[Age],s.Address, d.id as DistrictId, d.Name as DistrictName from students s inner join Districts d on s.DistrictID = d.Id
+

@@ -34,6 +34,7 @@
             this.codeTextBox = new System.Windows.Forms.TextBox();
             this.ShowButton = new System.Windows.Forms.Button();
             this.displayDataGridView = new System.Windows.Forms.DataGridView();
+            this.idTextBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.displayDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,12 +79,22 @@
             this.displayDataGridView.Name = "displayDataGridView";
             this.displayDataGridView.Size = new System.Drawing.Size(408, 217);
             this.displayDataGridView.TabIndex = 4;
+            this.displayDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.displayDataGridView_CellClick);
+            // 
+            // idTextBox
+            // 
+            this.idTextBox.Location = new System.Drawing.Point(32, 38);
+            this.idTextBox.Name = "idTextBox";
+            this.idTextBox.Size = new System.Drawing.Size(100, 20);
+            this.idTextBox.TabIndex = 5;
+            this.idTextBox.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(433, 450);
+            this.Controls.Add(this.idTextBox);
             this.Controls.Add(this.displayDataGridView);
             this.Controls.Add(this.ShowButton);
             this.Controls.Add(this.codeTextBox);
@@ -105,6 +116,7 @@
         private System.Windows.Forms.TextBox codeTextBox;
         private System.Windows.Forms.Button ShowButton;
         private System.Windows.Forms.DataGridView displayDataGridView;
+        private System.Windows.Forms.TextBox idTextBox;
     }
 }
 
