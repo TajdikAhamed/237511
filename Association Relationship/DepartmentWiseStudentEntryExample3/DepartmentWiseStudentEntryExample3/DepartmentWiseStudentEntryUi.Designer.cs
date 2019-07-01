@@ -81,6 +81,7 @@
             this.ShowButton.TabIndex = 10;
             this.ShowButton.Text = "Show";
             this.ShowButton.UseVisualStyleBackColor = true;
+            this.ShowButton.Click += new System.EventHandler(this.ShowButton_Click);
             // 
             // label5
             // 
@@ -111,11 +112,15 @@
             // 
             // deprartmentComboBox
             // 
+            this.deprartmentComboBox.DisplayMember = "DepartmentName";
             this.deprartmentComboBox.FormattingEnabled = true;
             this.deprartmentComboBox.Location = new System.Drawing.Point(113, 103);
             this.deprartmentComboBox.Name = "deprartmentComboBox";
             this.deprartmentComboBox.Size = new System.Drawing.Size(262, 21);
             this.deprartmentComboBox.TabIndex = 9;
+            this.deprartmentComboBox.ValueMember = "DepartmentName";
+            this.deprartmentComboBox.SelectedIndexChanged += new System.EventHandler(this.deprartmentComboBox_SelectedIndexChanged);
+            this.deprartmentComboBox.Click += new System.EventHandler(this.deprartmentComboBox_Click);
             // 
             // StudentSaveButton
             // 
@@ -125,6 +130,7 @@
             this.StudentSaveButton.TabIndex = 7;
             this.StudentSaveButton.Text = "Save";
             this.StudentSaveButton.UseVisualStyleBackColor = true;
+            this.StudentSaveButton.Click += new System.EventHandler(this.StudentSaveButton_Click);
             // 
             // studentNameTextBox
             // 
@@ -205,6 +211,7 @@
             this.DepartmentSaveButton.TabIndex = 7;
             this.DepartmentSaveButton.Text = "Save";
             this.DepartmentSaveButton.UseVisualStyleBackColor = true;
+            this.DepartmentSaveButton.Click += new System.EventHandler(this.DepartmentSaveButton_Click);
             // 
             // departmentNameTextBox
             // 
