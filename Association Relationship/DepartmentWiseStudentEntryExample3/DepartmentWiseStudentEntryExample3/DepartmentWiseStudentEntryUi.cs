@@ -51,7 +51,7 @@ namespace DepartmentWiseStudentEntryExample3
             
             foreach (Department department in Departments)
             {
-                if(department.DepartmentName == departmentNameTextBox.Text)
+                if(department.DepartmentName == deprartmentComboBox.Text)
                 {
                     bool flag = department.AddStudent(department,student);
                     break;

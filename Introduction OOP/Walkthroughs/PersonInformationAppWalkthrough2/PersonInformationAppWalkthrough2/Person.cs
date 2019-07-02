@@ -8,14 +8,53 @@ namespace PersonInformationAppWalkthrough2
 {
     class Person
     {
-        public string firstName;
-        public string lastName;
-        public string middleName;
+        private string firstName;
+        private string lastName;
+        private string middleName;
 
-        public string GetFullName()
+        public Person()
         {
-            string fullName = firstName + " " + middleName + " " + lastName;
-            return fullName;
+
         }
+
+        public Person(string firstName, string lastName)
+        {
+            this.FirstName = firstName;
+            this.LastName = lastName;
+        }
+        public Person(string firstName, string lastName,string middleName)
+        {
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.MiddleName = middleName;
+        }
+    public string FirstName
+        {
+            get
+            {
+                return firstName;
+            }
+            set {  this.firstName = value; }
+        }
+        public string LastName
+        {
+            get
+            {
+                return lastName;
+            }
+            set { this.lastName = value; }
+        }
+        public string MiddleName
+        {
+            get
+            {
+                return middleName;
+            }
+            set { this.middleName = value; }
+        }
+
+
+
     }
-}
+    }
+

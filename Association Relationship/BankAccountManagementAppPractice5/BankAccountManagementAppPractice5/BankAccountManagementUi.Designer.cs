@@ -102,6 +102,7 @@
             this.ShowButton.TabIndex = 10;
             this.ShowButton.Text = "Show Account Info";
             this.ShowButton.UseVisualStyleBackColor = true;
+            this.ShowButton.Click += new System.EventHandler(this.ShowButton_Click);
             // 
             // groupBox2
             // 
@@ -127,6 +128,7 @@
             this.AccountSaveButton.TabIndex = 7;
             this.AccountSaveButton.Text = "Save";
             this.AccountSaveButton.UseVisualStyleBackColor = true;
+            this.AccountSaveButton.Click += new System.EventHandler(this.AccountSaveButton_Click);
             // 
             // customerComboBox
             // 
@@ -139,6 +141,11 @@
             // typeComboBox
             // 
             this.typeComboBox.FormattingEnabled = true;
+            this.typeComboBox.Items.AddRange(new object[] {
+            "Saving",
+            "Debit",
+            "Credit",
+            "Checking"});
             this.typeComboBox.Location = new System.Drawing.Point(112, 46);
             this.typeComboBox.Name = "typeComboBox";
             this.typeComboBox.Size = new System.Drawing.Size(216, 21);
@@ -204,6 +211,7 @@
             this.CustomerSaveButton.TabIndex = 7;
             this.CustomerSaveButton.Text = "Save";
             this.CustomerSaveButton.UseVisualStyleBackColor = true;
+            this.CustomerSaveButton.Click += new System.EventHandler(this.CustomerSaveButton_Click);
             // 
             // nameTextBox
             // 
@@ -294,6 +302,7 @@
             this.transactionCustomerComboBox.Name = "transactionCustomerComboBox";
             this.transactionCustomerComboBox.Size = new System.Drawing.Size(200, 21);
             this.transactionCustomerComboBox.TabIndex = 13;
+            this.transactionCustomerComboBox.SelectedIndexChanged += new System.EventHandler(this.transactionCustomerComboBox_SelectedIndexChanged);
             // 
             // accountComboBox
             // 
@@ -329,6 +338,7 @@
             this.DepositButton.TabIndex = 7;
             this.DepositButton.Text = "Deposit";
             this.DepositButton.UseVisualStyleBackColor = true;
+            this.DepositButton.Click += new System.EventHandler(this.DepositButton_Click);
             // 
             // WithdrawButton
             // 
@@ -338,6 +348,7 @@
             this.WithdrawButton.TabIndex = 7;
             this.WithdrawButton.Text = "Withdraw";
             this.WithdrawButton.UseVisualStyleBackColor = true;
+            this.WithdrawButton.Click += new System.EventHandler(this.WithdrawButton_Click);
             // 
             // amountTextBox
             // 

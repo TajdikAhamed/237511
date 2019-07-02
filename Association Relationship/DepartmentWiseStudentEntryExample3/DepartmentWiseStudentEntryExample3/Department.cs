@@ -9,10 +9,17 @@ namespace DepartmentWiseStudentEntryExample3
     public class Department
     {
 
+         
+        public Department()
+        {
+            Students = new List<Student>();
+        }
 
         public string Code { get; set; }
         public string DepartmentName { get; set; }
-        public List<Student> Students = new List<Student>();
+        public List<Student> Students { get; set; }
+
+        public Student Student { get; set; }
 
         public bool AddStudent(Department department, Student student)
         {

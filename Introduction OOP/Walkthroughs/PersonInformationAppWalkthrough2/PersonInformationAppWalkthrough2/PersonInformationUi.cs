@@ -21,13 +21,23 @@ namespace PersonInformationAppWalkthrough2
         {
             Person person = new Person();
 
-            person.firstName = firstNameTextBox.Text;
-            person.middleName = middleNameTextBox.Text;
-            person.lastName = lastNameTextBox.Text;
+            person.FirstName = firstNameTextBox.Text;
+            person.MiddleName = middleNameTextBox.Text;
+            person.LastName = lastNameTextBox.Text;
 
-            string fullName = person.GetFullName();
+            //string fullName = person.GetFullName();
 
-            fullNameTextBox.Text = fullName;
+            //fullNameTextBox.Text = fullName;
+        }
+
+        private void PersonInformationUi_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
