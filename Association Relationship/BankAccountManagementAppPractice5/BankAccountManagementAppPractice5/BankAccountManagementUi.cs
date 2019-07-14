@@ -30,6 +30,7 @@ namespace BankAccountManagementAppPractice5
             customer.ContactNumber = number;
             customer.Address = address;
             customers.Add(customer);
+
             customerComboBox.Items.Add(customer.CustomerName);
             transactionCustomerComboBox.Items.Add(customer.CustomerName);
             reportCustomerComboBox.Items.Add(customer.CustomerName);
