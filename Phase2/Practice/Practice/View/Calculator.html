@@ -1,0 +1,525 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #headerBar {
+            top: auto;
+            background-color: blue;
+            height: 100px;
+            text-align: center;
+        }
+
+        #menuBar {
+            background-color: aqua;
+            height: 50px;
+            text-align: center;
+        }
+
+        #leftBar {
+            float: left;
+            background-color: chartreuse;
+            height: auto;
+            width: 15%;
+            text-align: center;
+        }
+
+        #centerBar {
+            float: left;
+            background-color: brown;
+            height: auto;
+            width: 70%;
+            text-align: left;
+        }
+
+        #rightBar {
+            float: left;
+            background-color: green;
+            height: auto;
+            width: 15%;
+            text-align: center;
+        }
+
+        #footerBar {
+            xbottom: 0px;
+            background-color: black;
+            color: aquamarine;
+            height: 100px;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div id="headerBar" class="col-md-12">Header</div>
+    <div id="menuBar" class="col-md-12">
+        <div class="col">
+            <nav class="navbar navbar-expand-sm navbar-light bg-transparent">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="row">
+            <div id="leftBar" class="col-md-2">
+
+                <div class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6"></div>
+                </div>
+            </div>
+            <div id="centerBar" class="col-md-8">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Default form register -->
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <div class="col-2">
+                                           
+                                    </div>
+                                    <label for="firstName"></label>
+                                    <input style="text-align: right;" type="text" class="form-control" id="DisplayText">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <div class="row">
+
+                                        <div class="col-2">
+                                           
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="ceButton">CE</label>
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="cButton">C</label>
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="xButton">x</label>
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="divButton">/</label>
+                                        </div>
+                                        <div class="col-2">
+                                           
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+
+                                        <div class="col-12">
+                                            <label></label>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="row">
+
+                                        <div class="col-2">
+                                           
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="sevenButton">7</label>
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="eightButton">8</label>
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="nineButton">9</label>
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="multiButton">*</label>
+                                        </div>
+                                        <div class="col-2">
+                                            
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="row">
+
+                                        <div class="col-12">
+                                            <label></label>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="row">
+
+                                        <div class="col-2">
+                                        
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="fourButton">4</label>
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="fiveButton">5</label>
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="sixButton">6</label>
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="subButton">-</label>
+                                        </div>
+                                        <div class="col-2">
+                                            
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+
+                                        <div class="col-12">
+                                            <label></label>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="row">
+
+                                        <div class="col-2">
+                                            
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="oneButton">1</label>
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="twoButton">2</label>
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="threeButton">3</label>
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="plusButton">+</label>
+                                        </div>
+                                        <div class="col-2">
+                                            
+                                        </div>
+
+                                    </div>
+                                    
+                                    <div class="row">
+
+                                        <div class="col-12">
+                                            <label></label>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="row">
+
+                                        <div class="col-2">
+                                            
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="zeroButton">0</label>
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="dotButton">.</label>
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="dzeroButton">00</label>
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="btn btn-primary" id="sumButton">=</label>
+                                        </div>
+                                        <div class="col-2">
+                                            
+                                        </div>
+
+                                    </div>
+                                </div>
+                               
+
+                            </div>
+                            <div class="form-group">
+                               
+                            </div>
+                           
+                        </form>
+                        <!-- Default form register -->
+
+                    </div>
+                </div>
+            </div>
+            <div id="rightBar" class="col-md-2">
+
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footerBar">Footer</div>
+    <script src="../Scripts/jquery-3.0.0.min.js"></script>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+
+    <script>
+    $(document).ready(function () {
+
+        var totalNum = 0;
+        var firstNum = 0;
+        var secNum = 0;
+        var operator = "";
+
+        $("#oneButton").click(function () {
+            $("#DisplayText").val($("#DisplayText").val() + "1") ;
+        });
+
+
+        $("#twoButton").click(function () {
+                 $("#DisplayText").val($("#DisplayText").val() + "2") ;
+        });
+
+        $("#threeButton").click(function () {
+            $("#DisplayText").val($("#DisplayText").val() + "3") ;
+        });
+        $("#fourButton").click(function () {
+            $("#DisplayText").val($("#DisplayText").val() + "4") ;
+        });
+        $("#fiveButton").click(function () {
+            $("#DisplayText").val($("#DisplayText").val() + "5") ;
+        });
+        $("#sixButton").click(function () {
+            $("#DisplayText").val($("#DisplayText").val() + "6") ;
+        });
+        $("#sevenButton").click(function () {
+            $("#DisplayText").val($("#DisplayText").val() + "7") ;
+        });
+        $("#eightButton").click(function () {
+            $("#DisplayText").val($("#DisplayText").val() + "8") ;
+        });
+        $("#nineButton").click(function () {
+            $("#DisplayText").val($("#DisplayText").val() + "9") ;
+        });
+        $("#zeroButton").click(function () {
+            if ($("#DisplayText").val() != "") {
+                $("#DisplayText").val($("#DisplayText").val() + "0");
+            }
+        });
+
+
+        $("#plusButton").click(function () {
+
+            if ($("#DisplayText").val() != "") {
+                firstNum = $("#DisplayText").val();
+                $("#DisplayText").val("");
+                operator = "+";
+            }
+        });
+        $("#subButton").click(function () {
+
+            if ($("#DisplayText").val() != "") {
+                firstNum = $("#DisplayText").val();
+                $("#DisplayText").val("");
+
+                operator = "-";
+            }
+        });
+
+        $("#divButton").click(function () {
+
+            if ($("#DisplayText").val() != "") {
+                firstNum = $("#DisplayText").val();
+                $("#DisplayText").val("");
+
+                operator = "/";
+            }
+        });
+
+        $("#multiButton").click(function () {
+
+            if ($("#DisplayText").val() != "") {
+                firstNum = $("#DisplayText").val();
+                $("#DisplayText").val("");
+            }
+            
+            operator = "*";
+        });
+        $("#sumButton").click(function () {
+
+            if (parseInt(firstNum) > 0) {
+                if ($("#DisplayText").val() != "") {
+                    secNum = $("#DisplayText").val();
+                    $("#DisplayText").val("");
+                    if (operator == "+") {
+                        totalNum = parseInt(firstNum) + parseInt(secNum);
+                    }
+                    if (operator == "-") {
+                        totalNum = parseInt(firstNum) - parseInt(secNum);
+                    }
+                    if (operator == "*") {
+                        totalNum = parseInt(firstNum) * parseInt(secNum);
+                    }
+                    if (operator == "/") {
+                        totalNum = parseInt(firstNum) / parseInt(secNum);
+                    }
+                }
+                $("#DisplayText").val(totalNum.toString());
+            }
+        });
+
+
+
+
+        $("#ceButton").click(function () {
+
+            firstNum = 0;
+            secNum = 0;
+            totalNum = 0;
+            $("#DisplayText").val("");
+
+            
+        });
+
+        $("#cButton").click(function () {
+
+            firstNum = 0;
+            secNum = 0;
+            totalNum = 0;
+            $("#DisplayText").val("");
+
+            
+        });
+
+
+        $("#xButton").click(function () {
+            if ($("#DisplayText").val().length > 0) {
+                $("#DisplayText").val($("#DisplayText").val().substring(0, $("#DisplayText").val().length - 1));
+            }
+
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+        $("#firstName").click(function(){
+            //$("p").hide();
+            alert("First name is clicked");
+
+        });
+        */
+        $("#inputAddress2").hide();
+        $("#inputAddress2Label").hide();
+
+        $("#inputAddress").click(function(){
+            $("#inputAddress2").hide();
+            $("#inputAddress2Label").hide();
+
+           // alert("First name is clicked");
+
+        });
+
+        $("#inputAddress").dblclick(function(){
+            $("#inputAddress2").show();
+            $("#inputAddress2Label").show();
+            // alert("First name is clicked");
+
+        });
+
+        $("#firstName").keyup(function(){
+            //$("p").hide();
+           // alert("First name is clicked");
+            var Name = $("#firstName").val();
+            if (Name == "") {
+
+                $("#inputEmail4").val("");
+            } else {
+
+                $("#inputEmail4").val(Name+"@gmail.com");
+            }
+
+        });
+
+        $("#inputPassword4").focusout(function() {
+
+            var password = $("#inputPassword4").val();
+            if (password.length < 6) {
+                alert("password must be at lest 6 charecter");
+                var string = '<input type="text" class="form-control" id="inputEducation" placeholder="Education">'
+
+                $("#divNew").html(string);
+            }
+
+
+        });
+
+        $("#newButton").click(function() {
+            var string = '<input type="text" class="form-control" id="inputEducation" placeholder="Education">'
+
+          $("#divNew").html(string);
+
+        });
+
+        $("#save").click(function () {
+            debugger;
+
+            var firstName = $("#firstName").val();
+            var lasttName = $("#lastName").val();
+            var email = $("#inputEmail4").val();
+            var password = $("#inputPassword4").val();
+
+            if (firstName == "") {
+                alert("Please Enter First Name");
+                return;
+            }
+            if (lasttName == "") {
+                alert("Please Enter last Name");
+                return;
+            }
+            if (email == "") {
+                alert("Please Enter email address");
+                return;
+            }
+            if (password == "") {
+                alert("Please Enter password");
+                return;
+            }
+
+
+            // alert("First name is clicked");
+
+        });
+
+    });
+
+
+    </script>
+</body>
+
+</html>
